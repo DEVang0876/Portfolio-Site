@@ -2,52 +2,53 @@ import { motion } from 'framer-motion';
 import { FaCode, FaMobile, FaServer, FaTools } from 'react-icons/fa';
 import Navbar from '../components/Navbar';
 
-const services = [
-  {
-    icon: FaServer,
-    title: "AI & Data Science",
-    description: "Build intelligent solutions and analyze data using Python, Pandas, and machine learning libraries.",
-    features: [
-      "Data Preprocessing & Cleaning",
-      "Model Training & Evaluation",
-      "Data Visualization (Matplotlib/Seaborn)",
-      "AI Model Deployment"
-    ]
-  },
-  {
-    icon: FaCode,
-    title: "Backend Development",
-    description: "Design scalable backend systems using Node.js, FastAPI, and database technologies.",
-    features: [
-      "REST API Design",
-      "Authentication & Security",
-      "Database Integration (MongoDB/PostgreSQL)",
-      "Server-Side Optimization"
-    ]
-  },
-  {
-    icon: FaMobile,
-    title: "ML Project Deployment",
-    description: "Deploy machine learning models to production using tools like Flask, Docker, and Streamlit.",
-    features: [
-      "Model Packaging",
-      "API Integration",
-      "Dockerization",
-      "UI for ML Outputs"
-    ]
-  },
-  {
-    icon: FaTools,
-    title: "Freelancing & Collaboration",
-    description: "Contribute to diverse projects with clear communication, agile practices, and effective teamwork.",
-    features: [
-      "Agile Methodologies",
-      "Team Collaboration Tools (GitHub, Trello)",
-      "Requirement Analysis",
-      "Effective Communication"
-    ]
-  }
-];
+const HireMe = () => {
+  const services = [
+    {
+      icon: FaServer,
+      title: "AI & Data Science",
+      description: "Build intelligent solutions and analyze data using Python, Pandas, and machine learning libraries.",
+      features: [
+        "Data Preprocessing & Cleaning",
+        "Model Training & Evaluation",
+        "Data Visualization (Matplotlib/Seaborn)",
+        "AI Model Deployment"
+      ]
+    },
+    {
+      icon: FaCode,
+      title: "Backend Development",
+      description: "Design scalable backend systems using Node.js, FastAPI, and database technologies.",
+      features: [
+        "REST API Design",
+        "Authentication & Security",
+        "Database Integration (MongoDB/PostgreSQL)",
+        "Server-Side Optimization"
+      ]
+    },
+    {
+      icon: FaMobile,
+      title: "ML Project Deployment",
+      description: "Deploy machine learning models to production using tools like Flask, Docker, and Streamlit.",
+      features: [
+        "Model Packaging",
+        "API Integration",
+        "Dockerization",
+        "UI for ML Outputs"
+      ]
+    },
+    {
+      icon: FaTools,
+      title: "Freelancing & Collaboration",
+      description: "Contribute to diverse projects with clear communication, agile practices, and effective teamwork.",
+      features: [
+        "Agile Methodologies",
+        "Team Collaboration Tools (GitHub, Trello)",
+        "Requirement Analysis",
+        "Effective Communication"
+      ]
+    }
+  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -149,4 +150,4 @@ const services = [
   );
 };
 
-export default HireMe; 
+export default HireMe;
