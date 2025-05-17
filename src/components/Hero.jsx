@@ -64,7 +64,7 @@ const Hero = () => {
                 variants={itemVariants}
                 className="text-[#00FF7F] text-sm uppercase tracking-wider font-fira"
               >
-                Software Developer
+                AI and Data Science Engineer
               </motion.span>
               <motion.h1
                 variants={itemVariants}
