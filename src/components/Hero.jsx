@@ -19,7 +19,7 @@ const Hero = () => {
   }, []);
 
   const socialLinks = [
-    { icon: FaGithub, href: 'https://github.com/dhairyagothi' },
+    { icon: FaGithub, href: 'https://github.com/DEVang0876' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/dhairya-gothi-65945b288/' },
     { icon: FaInstagram, href: 'https://www.instagram.com/dhairyaa__31/' },
     { icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
@@ -71,7 +71,7 @@ const Hero = () => {
                 className="text-3xl md:text-6xl font-bold font-fira"
               >
                 Hello I'm{' '}
-                <span className="text-[#00FF7F]">Dhairya</span>
+                <span className="text-[#00FF7F]">Devang</span>
               </motion.h1>
               <motion.p
                 variants={itemVariants}

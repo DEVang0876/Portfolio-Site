@@ -81,12 +81,12 @@ const Achievements = () => {
             title="GitHub Stats" 
             icon={FaGithub} 
             index={0}
-            buttonLink="https://github.com/dhairyagothi"
+            buttonLink="https://github.com/DEVang0876"
             buttonText="View GitHub Profile"
             buttonIcon={FaGithub}
           >
             <img
-              src="https://github-readme-stats.vercel.app/api?username=dhairyagothi&theme=blue-green&show_icons=true&hide_border=true&count_private=true"
+              src="https://github-readme-stats.vercel.app/api?username=DEVang0876&theme=blue-green&show_icons=true&hide_border=true&count_private=true"
               alt="GitHub Stats"
               className="w-full h-full object-contain"
             />

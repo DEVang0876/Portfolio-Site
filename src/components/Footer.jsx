@@ -2,11 +2,11 @@ import { FaGithub, FaLinkedin, FaYoutube, FaXTwitter, FaInstagram, FaDiscord } f
 
 const Footer = () => {
   const socialLinks = [
-    { icon: FaGithub, href: 'https://github.com/dhairyagothi' },
+    { icon: FaGithub, href: 'https://github.com/DEvang0876' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/dhairya-gothi-65945b288/' },
     { icon: FaYoutube, href: 'https://www.youtube.com/@dhairyagothi5721' },
     { icon: FaXTwitter, href: 'https://x.com/DhairyaGothi3' },
-    { icon: FaInstagram, href: 'https://www.instagram.com/dhairyaa__31/' },
+    { icon: FaInstagram, href: 'https://www.instagram.com/_deviiinee__/' },
     { icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
   ];
 
