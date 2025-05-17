@@ -5,27 +5,27 @@ import { useRef } from 'react';
 const educationData = [
   {
     id: 1,
-    institution: 'Central Board of Secondary Education',
+    institution: 'Gujrat Secondary and Higher secondary Education Board',
     logo: '/logos/cbse.png',
     degree: '10th Secondary, Science',
     duration: 'Mar 2020 – Apr 2021',
-    grade: '86%',
+    grade: '93%',
   },
   {
     id: 2,
-    institution: 'Central Board of Secondary Education',
+    institution: 'Gujrat Secondary and Higher secondary Education Board',
     logo: '/logos/cbse.png',
     degree: '12th Senior Secondary, Science',
     duration: 'Mar 2022 – May 2023',
-    grade: '82.4%',
+    grade: '82%ile',
   },
   {
     id: 3,
-    institution: 'Vellore Institute of Technology',
+    institution: 'Charotar Univercity of science and technology -CHARUSAT',
     logo: '/logos/vit.png',
-    degree: 'BTech, Computer Science',
+    degree: 'BTech(AIML)',
     duration: 'Aug 2023 – Jul 2027',
-    grade: '8.36 CGPA',
+    grade: '8.85 CGPA',
   },
 ];
 
