@@ -77,7 +77,7 @@ const Navbar = () => {
             className="text-2xl font-bold font-poppins"
           >
             <Link to="/" className="text-white hover:text-[#00FF7F] transition-colors duration-300">
-              Dhairya<span className="text-[#00FF7F]">.</span>
+              Devang<span className="text-[#00FF7F]">.</span>
             </Link>
           </motion.div>
 
