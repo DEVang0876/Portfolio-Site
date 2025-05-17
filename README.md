@@ -1,6 +1,6 @@
 <div align="center" style="position: relative;">
 
-![Devang Dhandhukiya bg LinkedIn](https://github.com/user-attachments/assets/24631724-4474-4a7c-a12d-6787726cbccb)
+![Devang Dhandhukiya bg LinkedIn](https://github.com/DEVang0876/Portfolio-Site/blob/main/public/projects/1747497292517.png)
 
 
 
