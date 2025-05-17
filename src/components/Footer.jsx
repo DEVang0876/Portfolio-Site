@@ -3,11 +3,11 @@ import { FaGithub, FaLinkedin, FaYoutube, FaXTwitter, FaInstagram, FaDiscord } f
 const Footer = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/DEvang0876' },
-    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/dhairya-gothi-65945b288/' },
-    { icon: FaYoutube, href: 'https://www.youtube.com/@dhairyagothi5721' },
-    { icon: FaXTwitter, href: 'https://x.com/DhairyaGothi3' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/devang0876/' },
+    { icon: FaYoutube, href: 'https://www.youtube.com/@devangdevf0876' },
+    //{ icon: FaXTwitter, href: 'https://x.com/DhairyaGothi3' },
     { icon: FaInstagram, href: 'https://www.instagram.com/_deviiinee__/' },
-    { icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
+    //{ icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
   ];
 
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center space-y-6">
           <p className="text-gray-500 text-sm">
-Destination always Demands Patience ✨ 🌌 </p>
+Old me makes me Perfect ✨ 🌌 </p>
           <div className="flex space-x-6">
             {socialLinks.map((link, index) => (
               <a
@@ -30,7 +30,7 @@ Destination always Demands Patience ✨ 🌌 </p>
             ))}
           </div>
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Dhairya Gothi. All rights reserved.
+            © {new Date().getFullYear()} Devang Dhandhukiya. All rights reserved.
           </p>
         </div>
       </div>

@@ -96,12 +96,12 @@ const Achievements = () => {
             title="LeetCode Stats" 
             icon={FaCode} 
             index={1}
-            buttonLink="https://leetcode.com/dhairyagothi"
+            buttonLink="https://leetcode.com/u/devang_23AIML014/"
             buttonText="View LeetCode Profile"
             buttonIcon={FaCode}
           >
             <img
-              src="https://leetcode-stats.vercel.app/api?username=dhairyagothi&theme=Dark"
+              src="https://leetcode-stats.vercel.app/api?username=devang_23AIML014&theme=Dark"
               alt="LeetCode Stats"
               className="w-full h-full object-contain"
             />

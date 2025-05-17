@@ -134,7 +134,7 @@ const Contact = () => {
       const emailData = {
         to: formData.email,
         subject: 'Thank you for contacting us',
-        message: `Dear ${formData.name},\n\nThank you for reaching out to us. We've received your message and will get back to you soon.\n\nBest regards,\nDhairya Gothi`
+        message: `Dear ${formData.name},\n\nThank you for reaching out to us. We've received your message and will get back to you soon.\n\nBest regards,\nDEvang Dhandhukiya`
       };
       
       await functions.createExecution(
@@ -213,8 +213,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-sm md:text-base font-bold text-white font-fira">Email</h3>
-                <a href="mailto:Dhairyag31@gmail.com" className="text-xs md:text-sm text-gray-400 hover:text-[#00FF7F] transition-colors duration-300 font-poppins">
-                  Dhairyag31@gmail.com
+                <a href="mailto:devang454147@gmail.com" className="text-xs md:text-sm text-gray-400 hover:text-[#00FF7F] transition-colors duration-300 font-poppins">
+                  devang454147@gmail.com
                 </a>
               </div>
             </motion.div>
@@ -238,12 +238,12 @@ const Contact = () => {
               <div>
                 <h3 className="text-sm md:text-base font-bold text-white font-fira">LinkedIn</h3>
                 <a 
-                  href="https://www.linkedin.com/in/dhairya-gothi-65945b288/" 
+                  href="https://www.linkedin.com/in/devang0876/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-xs md:text-sm text-gray-400 hover:text-[#00FF7F] transition-colors duration-300 font-poppins"
                 >
-                  dhairya-gothi-65945b288
+                  devang0876
                 </a>
               </div>
             </motion.div>
@@ -255,12 +255,12 @@ const Contact = () => {
               <div>
                 <h3 className="text-sm md:text-base font-bold text-white font-fira">GitHub</h3>
                 <a 
-                  href="https://github.com/dhairyagothi" 
+                  href="https://github.com/DEVang0876" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-xs md:text-sm text-gray-400 hover:text-[#00FF7F] transition-colors duration-300 font-poppins"
                 >
-                  dhairyagothi
+                  DEVang0876
                 </a>
               </div>
             </motion.div>
