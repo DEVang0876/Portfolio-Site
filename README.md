@@ -15,9 +15,9 @@
 
   <!-- Profile views and social links -->
   <p>
-    <img src="https://komarev.com/ghpvc/?username=dhairyagothi&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
-    <a href="https://github.com/dhairyagothi">
-      <img src="https://img.shields.io/github/followers/dhairyagothi?logo=github&style=for-the-badge" alt="GitHub followers" />
+    <img src="https://komarev.com/ghpvc/?username=DEVang0876&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+    <a href="https://github.com/DEVang0876">
+      <img src="https://img.shields.io/github/followers/DEVang0876?logo=github&style=for-the-badge" alt="GitHub followers" />
     </a>
   </p>
 
@@ -62,7 +62,7 @@
   <h3>🌟 GitHub Trophies</h3>
   <p>
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=dhairyagothi&theme=dracula&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+      <img src="https://github-profile-trophy.vercel.app/?username=DEVang0876&theme=dracula&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
     </a>
   </p>
   
@@ -71,21 +71,21 @@
   
   <h3>📊 GitHub Stats</h3>
   <p>
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhairyagothi&theme=react" alt="Profile Details" />
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhairyagothi&theme=react" alt="Repos per Language" />
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dhairyagothi&theme=react" alt="Most Commit Language" />
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=dhairyagothi&theme=react" alt="Stats" />
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dhairyagothi&theme=react&utcOffset=8" alt="Productive Time" />
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DEVang0876&theme=react" alt="Profile Details" />
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DEVang0876&theme=react" alt="Repos per Language" />
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DEVang0876&theme=react" alt="Most Commit Language" />
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=DEVang0876&theme=react" alt="Stats" />
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DEVang0876&theme=react&utcOffset=8" alt="Productive Time" />
   </p>
 
   <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhairyagothi&theme=radical" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DEVang0876&theme=radical" alt="GitHub Streak" />
   </p>
   
   <!--Line-->
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"> 
 
-  [![dhairyagothi's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=dhairyagothi&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
+  [![DEVang0876's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=DEVang0876&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
 
   <!--Line-->
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900"> 
