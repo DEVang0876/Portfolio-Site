@@ -22,7 +22,7 @@ const Hero = () => {
     { icon: FaGithub, href: 'https://github.com/DEVang0876' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/dhairya-gothi-65945b288/' },
     { icon: FaInstagram, href: 'https://www.instagram.com/dhairyaa__31/' },
-    { icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
+   // { icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
     { icon: FaXTwitter, href: 'https://x.com/DhairyaGothi3' },
   ];
 
