@@ -50,25 +50,25 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      value: 'dhairyag31@gmail.com',
-      href: 'mailto:dhairyag31@gmail.com'
+      value: 'devang454147@gmail.com',
+      href: 'mailto:devang454147@gmail.com'
     },
     {
       icon: FaGithub,
       title: 'GitHub',
-      value: 'github.com/dhairyagothi',
-      href: 'https://github.com/dhairyagothi'
+      value: 'github.com/DEVang0876',
+      href: 'https://github.com/DEVang0876'
     },
     {
       icon: FaLinkedin,
       title: 'LinkedIn',
-      value: 'linkedin.com/in/dhairyagothi',
-      href: 'https://www.linkedin.com/in/dhairya-gothi-65945b288/'
+      value: 'linkedin.com/in/devang0876',
+      href: 'https://www.linkedin.com/in/devang0876/'
     },
     {
       icon: FaMapMarkerAlt,
       title: 'Location',
-      value: 'India (VIT University)'
+      value: 'India (CHARUSAT UNIVERSITY)'
     }
   ];
 
