@@ -152,7 +152,7 @@ const Work = () => {
         let hasMore = true;
 
         while (hasMore) {
-          const response = await fetch(`https://api.github.com/users/dhairyagothi/orgs?page=${page}&per_page=100`);
+          const response = await fetch(`https://api.github.com/users/DEVang0876/orgs?page=${page}&per_page=100`);
           const data = await response.json();
           
           if (data.length === 0) {
