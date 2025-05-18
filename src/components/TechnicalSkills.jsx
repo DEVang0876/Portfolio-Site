@@ -6,6 +6,9 @@ import { BiData } from 'react-icons/bi';
 import { DiScrum } from 'react-icons/di';
 import { useEffect, useState } from 'react';
 
+import { BiData } from 'react-icons/bi';
+import { DiScrum } from 'react-icons/di';
+
 const SkillCard = ({ icon: Icon, name, category }) => {
   return (
     <motion.div
@@ -39,26 +42,29 @@ const TechnicalSkills = () => {
   }, []);
 
   const skills = [
-    //{ icon: FaHtml5, name: 'HTML5', category: 'Web Development' },
-    //{ icon: FaCss3Alt, name: 'CSS3', category: 'Web Development' },
-    //{ icon: FaJs, name: 'JavaScript', category: 'Web Development' },
-    //{ icon: SiTailwindcss, name: 'Tailwind CSS', category: 'Web Development' },
-    //{ icon: FaReact, name: 'React.js', category: 'Web Development' },
-    //{ icon: FaNodeJs, name: 'Node.js', category: 'Web Development' },
-    //{ icon: FaFigma, name: 'Figma', category: 'UI Design' },
-    { icon: FaPython, name: 'Python', category: 'Programming' },
-    { icon: SiPandas, name: 'Pandas', category: 'Data Science' },
-    { icon: SiCplusplus, name: 'C++', category: 'Programming' },
-    { icon: SiNumpy, name: 'NumPy', category: 'Data Science' },
-    { icon: BiData, name: 'Scikit-learn', category: 'Machine Learning' },
-    { icon: DiScrum, name: 'Matplotlib', category: 'Data Visualization' },
-    { icon: FaGitAlt, name: 'Git & GitHub', category: 'Version Control' },
-    //{ icon: SiPostman, name: 'Postman', category: 'API Testing' },
-    { icon: FaCode, name: 'VSCode', category: 'IDE' },
-    { icon: SiLinux, name: 'Linux / Bash', category: 'Operating System' },
-    //{ icon: FaDatabase, name: 'MongoDB', category: 'Database' },
-    //{ icon: SiExpress, name: 'Express.js', category: 'Backend' },
-  ];
+  { icon: FaPython, name: 'Python', category: 'Programming' },
+  { icon: SiPandas, name: 'Pandas', category: 'Data Science' },
+  { icon: SiCplusplus, name: 'C++', category: 'Programming' },
+  { icon: SiNumpy, name: 'NumPy', category: 'Data Science' },
+  { icon: BiData, name: 'Scikit-learn', category: 'Machine Learning' },
+  { icon: DiScrum, name: 'Matplotlib', category: 'Data Visualization' },
+  { icon: FaGitAlt, name: 'Git & GitHub', category: 'Version Control' },
+  { icon: FaCode, name: 'VSCode', category: 'IDE' },
+  { icon: SiLinux, name: 'Linux / Bash', category: 'Operating System' },
+  
+  // New additions below
+  { icon: SiPandas, name: 'R Programming', category: 'Data Analysis' },
+  { icon: FaJava, name: 'Java', category: 'Programming' },
+  { icon: SiFlask, name: 'Flask', category: 'Web Framework' },
+  { icon: BiData, name: 'Machine Learning', category: 'AI/ML' },
+  { icon: BiData, name: 'Artificial Intelligence', category: 'AI/ML' },
+  { icon: BiData, name: 'Data Science', category: 'AI/ML' },
+  { icon: BiData, name: 'Data Analytics', category: 'AI/ML' },
+  { icon: SiTableau, name: 'Tableau', category: 'Data Visualization' },
+  { icon: SiPowerbi, name: 'Power BI', category: 'Data Visualization' },
+  { icon: FaDatabase, name: 'Excel', category: 'Data Analysis' },
+];
+
 
   // Duplicate skills array to create seamless loop
   const duplicatedSkills = [...skills, ...skills];
