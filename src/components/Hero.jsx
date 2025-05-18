@@ -23,7 +23,7 @@ const Hero = () => {
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/devang0876/' },
     { icon: FaInstagram, href: 'https://www.instagram.com/__deviiinee_/' },
    // { icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
-    //{ icon: FaXTwitter, href: 'https://x.com/DhairyaGothi3' },
+    { icon: FaXTwitter, href: 'https://x.com/DevangDhandhuk1' },
   ];
 
   const containerVariants = {
