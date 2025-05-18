@@ -26,10 +26,10 @@
   
   <h3>Connect with Me 🌐</h3>
   <p>
-    <a href="https://www.linkedin.com/in/dhairya-gothi-65945b288/" target="_blank">
+    <a href="https://www.linkedin.com/in/devang0876/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <a href="https://www.instagram.com/dhairyaa__31/" target="_blank">
+    <a href="https://www.instagram.com/__deviiinee_/" target="_blank">
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
   </p>
