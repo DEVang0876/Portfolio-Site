@@ -84,13 +84,7 @@ const services = [
     title: 'Tech Consulting & Mentorship',
     description:
       'Providing guidance on best practices in software development, data science, and AI, helping teams to innovate and excel.',
-  },
-  {
-    icon: FaPaintBrush,
-    title: 'Graphic Designing',
-    description:
-      'Crafting visually engaging designs for web, social media, and branding using tools like Adobe Photoshop, Illustrator, and Figma.',
-  },
+  }
 ];
 
   return (
