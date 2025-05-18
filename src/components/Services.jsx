@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaCode, FaPalette, FaLightbulb } from 'react-icons/fa';
+import { FaChartBar, FaBrain, FaChalkboardTeacher } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
 const ServiceCard = ({ icon: Icon, title, description, index }) => {
@@ -44,26 +44,48 @@ const Services = () => {
     threshold: 0.1,
   });
 
-  const services = [
-    {
-      icon: FaCode,
-      title: 'Data Analytics & Visualization',
-      description:
-        'Transforming raw data into actionable insights using Python, SQL, and data visualization tools like Tableau and Power BI.',
-    },
-    {
-      icon: FaPalette,
-      title: 'AI, Machine Learning & Data Science',
-      description:
-        'Building and deploying machine learning models using Python, TensorFlow, and PyTorch, with a focus on real-world applications.',
-    },
-    {
-      icon: FaLightbulb,
-      title: 'Tech Consulting & Mentorship',
-      description:
-        'Providing guidance on best practices in software development, data science, and AI, helping teams to innovate and excel.',
-    },
-  ];
+  // const services = [
+  //   {
+  //     icon: FaCode,
+  //     title: 'Data Analytics & Visualization',
+  //     description:
+  //       'Transforming raw data into actionable insights using Python, SQL, and data visualization tools like Tableau and Power BI.',
+  //   },
+  //   {
+  //     icon: FaPalette,
+  //     title: 'AI, Machine Learning & Data Science',
+  //     description:
+  //       'Building and deploying machine learning models using Python, TensorFlow, and PyTorch, with a focus on real-world applications.',
+  //   },
+  //   {
+  //     icon: FaLightbulb,
+  //     title: 'Tech Consulting & Mentorship',
+  //     description:
+  //       'Providing guidance on best practices in software development, data science, and AI, helping teams to innovate and excel.',
+  //   },
+  // ];
+
+
+const services = [
+  {
+    icon: FaChartBar,
+    title: 'Data Analytics & Visualization',
+    description:
+      'Transforming raw data into actionable insights using Python, SQL, and data visualization tools like Tableau and Power BI.',
+  },
+  {
+    icon: FaBrain,
+    title: 'AI, Machine Learning & Data Science',
+    description:
+      'Building and deploying machine learning models using Python, TensorFlow, and PyTorch, with a focus on real-world applications.',
+  },
+  {
+    icon: FaChalkboardTeacher,
+    title: 'Tech Consulting & Mentorship',
+    description:
+      'Providing guidance on best practices in software development, data science, and AI, helping teams to innovate and excel.',
+  },
+];
 
   return (
     <section id="services" className="py-12 md:py-20">
