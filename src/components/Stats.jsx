@@ -56,9 +56,9 @@ const Stats = () => {
 
   const stats = [
     { number: 0, label: 'Years of experience' },
-    { number: 7, label: 'Projects completed' },
-    { number: 10, label: 'Technologies mastered' },
-    { number: 1433, label: 'Code commits' },
+    { number: 4, label: 'Projects completed' },
+    { number: 7, label: 'Technologies mastered' },
+    { number: 350, label: 'Code commits' },
   ];
 
   return (
