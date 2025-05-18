@@ -128,14 +128,14 @@ const ProjectTimeline = () => {
 
   const projects = [
     {
-      title: "100 Days 100 Web Projects",
-      role: "Fullstack Developer",
+      title: "Employee Performance Prediction and Dashbord",
+      role: "Data Scientist & ML Engineer",
       type: "Open Source | Personal",
       description: "A challenge-based project where 100 unique web projects were developed in 100 days to enhance frontend and backend skills.",
       techStack: ["React.js", "Tailwind CSS", "Node.js", "Vercel"],
-      github: "https://github.com/dhairyagothi/100_days_100_web_project",
-      live: "https://100-days-100-web-project.vercel.app",
-      image: "/projects/100days.png"
+      github: "https://github.com/OMCHOKSI108/EMPLOYEE-PERFORMANCE-PREDICTION-",
+      live: "https://employee-yp79.onrender.com",
+      image: "/projects/Emp.png"
     },
     {
       title: "Waste Sort AI",
