@@ -116,12 +116,12 @@ const Certifications = () => {
   const certifications = [
     {
       id: 1,
-      title: 'Web Development',
+      title: 'Database Management System',
       organization: 'Girlscript Open Source Program',
       date: 'April 2024',
-      role: 'Contributor',
-      type: 'girlscript',
-      description: 'Successfully contributed to multiple open-source projects, implementing responsive designs and optimizing performance. Collaborated with developers worldwide to enhance project functionality.',
+      role: 'All India Topper TOP1%',
+      type: 'Online',
+      description: 'Achieved top 1% rank in the All India Database Management System competition. Demonstrated exceptional skills in SQL, database design, and optimization techniques.',
     },
     {
       id: 2,
