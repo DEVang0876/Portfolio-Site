@@ -125,12 +125,12 @@ const Certifications = () => {
     },
     {
       id: 2,
-      title: 'Postman API Fundamentals',
-      organization: 'Postman',
-      date: 'July 2024',
-      role: 'Expert',
-      type: 'postman',
-      description: 'Mastered API development and testing using Postman. Created comprehensive API documentation and automated test suites for various endpoints.',
+      title: 'Data Structure and Algorithm',
+      organization: 'NPTEL',
+      date: 'July 2023',
+      role: 'ELite+Silver',
+      type: 'online',
+      description: 'Completed the NPTEL course on Data Structures and Algorithms with an Elite+Silver certificate. Gained in-depth knowledge of data structures, algorithms, and their applications in problem-solving.',
     },
     {
       id: 3,
