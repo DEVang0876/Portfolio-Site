@@ -131,8 +131,8 @@ const ProjectTimeline = () => {
       title: "Employee Performance Prediction and Dashbord",
       role: "Data Scientist & ML Engineer",
       type: "Open Source | Personal",
-      description: "A challenge-based project where 100 unique web projects were developed in 100 days to enhance frontend and backend skills.",
-      techStack: ["React.js", "Tailwind CSS", "Node.js", "Vercel"],
+      description: "Predicting employee performance using ML models and visualizing data through an interactive dashboard.",
+      techStack: ["SciKit Learn", "Flask", "Python", "Vercel"],
       github: "https://github.com/OMCHOKSI108/EMPLOYEE-PERFORMANCE-PREDICTION-",
       live: "https://employee-yp79.onrender.com",
       image: "/projects/Emp.png"
