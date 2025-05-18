@@ -56,9 +56,7 @@ const CertificationCard = ({ data, index }) => {
     }
   };
 
-//   const getRoleColor = (role) => {
-//   return 
-// };
+
 
 
   const getIcon = (type) => {
