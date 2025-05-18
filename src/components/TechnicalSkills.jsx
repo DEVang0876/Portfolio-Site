@@ -44,7 +44,7 @@ const TechnicalSkills = () => {
     //{ icon: FaJs, name: 'JavaScript', category: 'Web Development' },
     //{ icon: SiTailwindcss, name: 'Tailwind CSS', category: 'Web Development' },
     //{ icon: FaReact, name: 'React.js', category: 'Web Development' },
-    { icon: FaNodeJs, name: 'Node.js', category: 'Web Development' },
+    //{ icon: FaNodeJs, name: 'Node.js', category: 'Web Development' },
     //{ icon: FaFigma, name: 'Figma', category: 'UI Design' },
     { icon: FaPython, name: 'Python', category: 'Programming' },
     { icon: SiPandas, name: 'Pandas', category: 'Data Science' },
