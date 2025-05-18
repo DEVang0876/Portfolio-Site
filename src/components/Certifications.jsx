@@ -52,9 +52,14 @@ const CertificationCard = ({ data, index }) => {
       case 'expert':
         return 'bg-green-500/20 text-green-400';
       default:
-        return 'bg-gray-500/20 text-gray-400';
+        return 'bg-yellow-500/20 text-yellow-400';;
     }
   };
+
+//   const getRoleColor = (role) => {
+//   return 
+// };
+
 
   const getIcon = (type) => {
     switch (type.toLowerCase()) {
