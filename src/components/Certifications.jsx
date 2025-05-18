@@ -116,21 +116,22 @@ const Certifications = () => {
   const certifications = [
     {
       id: 1,
-      title: 'Web Development',
-      organization: 'Girlscript Open Source Program',
+      title: 'Database Management System',
+      organization: 'NPTEL',
       date: 'April 2024',
-      role: 'Contributor',
-      type: 'girlscript',
-      description: 'Successfully contributed to multiple open-source projects, implementing responsive designs and optimizing performance. Collaborated with developers worldwide to enhance project functionality.',
+      //role: 'Contributor',
+      type: 'All India Topper TOP1%',
+      description: 'Achieved All India Topper status in the NPTEL Database Management System course, demonstrating exceptional understanding of database concepts and SQL.',
     },
     {
       id: 2,
-      title: 'Postman API Fundamentals',
-      organization: 'Postman',
-      date: 'July 2024',
-      role: 'Expert',
-      type: 'postman',
-      description: 'Mastered API development and testing using Postman. Created comprehensive API documentation and automated test suites for various endpoints.',
+      title: 'Data structures and Algorithms',
+      organization: 'NPTEL',
+      date: 'June 2023',
+      
+      //role: 'Expert',
+      type: 'Elite+Silver Certified',
+      description: 'Completed the NPTEL Data Structures and Algorithms course with Elite+Silver certification, showcasing proficiency in algorithm design and data structure implementation.',
     },
     {
       id: 3,
