@@ -47,21 +47,21 @@ const Services = () => {
   const services = [
     {
       icon: FaCode,
-      title: 'Full Stack Web Development',
+      title: 'Data Analytics & Visualization',
       description:
-        'Designing and developing scalable, high-performance web applications using React.js, Node.js, MongoDB, and Tailwind CSS with a focus on responsiveness and modern architecture.',
+        'Transforming raw data into actionable insights using Python, SQL, and data visualization tools like Tableau and Power BI.',
     },
     {
       icon: FaPalette,
-      title: 'UI/UX Design & Prototyping',
+      title: 'AI, Machine Learning & Data Science',
       description:
-        'Creating intuitive, accessible, and visually appealing user interfaces using Figma and modern CSS frameworks, with attention to design systems and usability.',
+        'Building and deploying machine learning models using Python, TensorFlow, and PyTorch, with a focus on real-world applications.',
     },
     {
       icon: FaLightbulb,
-      title: 'Tech Consulting & Open Source',
+      title: 'Tech Consulting & Mentorship',
       description:
-        'Mentoring and contributing to open-source communities (e.g., GirlScript), offering guidance on API design, project structure, and full-stack best practices.',
+        'Providing guidance on best practices in software development, data science, and AI, helping teams to innovate and excel.',
     },
   ];
 
