@@ -89,12 +89,13 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Employee Performnace Prediction',
       description:
-        'A full-stack e-commerce platform built with React, Node.js, and MongoDB.',
-      image: '/projects/ecommerce.jpg',
-      github: 'https://github.com/dhairya/ecommerce',
-      live: 'https://ecommerce-demo.com',
+        'A machine learning model to predict employee performance using Python and scikit-learn.',
+      image: "/projects/Emp.png",
+      github: "https://github.com/OMCHOKSI108/EMPLOYEE-PERFORMANCE-PREDICTION-",
+      live: "https://employee-yp79.onrender.com",
+      
     },
     {
       title: 'Task Management App',
