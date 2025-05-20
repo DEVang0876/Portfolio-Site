@@ -120,8 +120,8 @@ const Experience = () => {
         duration: 'May 2024 - Aug 2024',
         location: 'Remote',
         type: 'Contributor',
-        description: 'Worked as a contributor in an 3 month open source Program name Girlscript summer of code GSSOC. Ranked 64',
-        skills: ['React.js', 'Front-End Development'],
+        description: '',
+        skills: ,
       },
     ],
   };
