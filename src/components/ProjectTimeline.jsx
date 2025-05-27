@@ -167,17 +167,18 @@ const ProjectTimeline = () => {
       live: "https://samvidhan-path.vercel.app",
       image: "/projects/movie.png"
     },
-    {
-      title: "Swasthya Saarthi",
-      role: "Backend Developer",
-      type: "Hackathon | HealthTech",
-      description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
-      techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
-      github: "https://github.com/dhairyagothi/swasthya-saarthi",
-      live: "https://swasthya-saarthi.vercel.app",
-      image: "/projects/swasthya.png"
-    }
-  ];
+      {
+        title: "Swasthya Saarthi",
+        role: "Backend Developer",
+        type: "Hackathon | HealthTech",
+        description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
+        techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
+        github: "https://github.com/dhairyagothi/swasthya-saarthi",
+        live: "https://swasthya-saarthi.vercel.app",
+        image: "/projects/swasthya.png"
+      }
+    ];
+  
 
   return (
     <section id="projects" className="py-12 md:py-20">

@@ -48,7 +48,7 @@ const ExperienceCard = ({ data, isLeft }) => {
 };
 
 const Experience = () => {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
@@ -121,7 +121,7 @@ const Experience = () => {
         location: 'Remote',
         type: 'Contributor',
         description: '',
-        skills: ,
+        skills: [],
       },
     ],
   };
@@ -163,7 +163,7 @@ const Experience = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-bold text-white mb-6 md:mb-8 font-fira">Technical Clubs</h3>
             <div className="space-y-6 md:space-y-8">
-              {experienceData.clubs.map((data, index) => (
+              {experienceData.clubs.map((data) => (
                 <ExperienceCard key={data.id} data={data} isLeft={true} />
               ))}
             </div>
@@ -173,7 +173,7 @@ const Experience = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-bold text-white mb-6 md:mb-8 font-fira">Other Experience</h3>
             <div className="space-y-6 md:space-y-8">
-              {experienceData.other.map((data, index) => (
+              {experienceData.other.map((data) => (
                 <ExperienceCard key={data.id} data={data} isLeft={false} />
               ))}
             </div>
