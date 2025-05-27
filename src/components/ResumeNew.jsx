@@ -244,17 +244,17 @@ const ResumeNew = () => {
     clubs: [
       {
         id: 1,
-        title: 'Technical Team Core Member',
-        organization: 'Ecell, VIT Bhopal',
+        title: 'Techathon: National level Hackathon',
+        organization: 'Adani University',
         logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEAfG-5C8Lv6Q/company-logo_100_100/B4DZVXqxtwHAAQ-/0/1740932588580?e=1751500800&v=beta&t=CAOpIIZT85xsld2u06xPQ8n7W9hnqfXRvxCxVK-DU6U',
         duration: 'Nov 2024 - Present',
-        location: 'Bhopal, Madhya Pradesh, India',
-        type: 'Full-time',
-        description: 'Technical Team Core Member in E-Cell of VIT Bhopal University',
+        location: 'Ahemdabad, Gujrat, India',
+        type: '24 Hours',
+        description: 'Participated in a national level hackathon organized by Adani University, focusing on innovative solutions in AI and ML.',
         responsibilities: [
-          'Managing and maintaining the E-Cell website and digital platforms',
+          'Developing a machine learning model for real-time data analysis',
         ],
-        skills: ['Web Development', 'React.js', 'Leadership', 'Event Management']
+        skills: ['Machine Learning', 'Data Analysis', 'Problem Solving', 'web development']
       },
       {
         id: 2,
