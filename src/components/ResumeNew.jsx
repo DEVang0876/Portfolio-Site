@@ -309,41 +309,41 @@ const ResumeNew = () => {
   const certifications = [
     {
       id: 1,
-      title: 'Web Development',
-      organization: 'Girlscript Open Source Program',
+      title: 'NPTEL Databse Management System',
+      organization: 'IIT Kharagpur',
       date: 'April 2024',
-      role: 'Contributor',
-      type: 'girlscript',
+      role: 'ALL INDIA TOPPER TOP(1%)',
+      type: '8 week Online',
       details: [
       ]
     },
     {
       id: 2,
-      title: 'Postman API Fundamentals',
-      organization: 'Postman',
+      title: 'NPTEL Data Structures and Algorithms',
+      organization: 'IIT Kharagpur',
       date: 'July 2024',
-      role: 'Expert',
-      type: 'postman',
+      role: 'ELite+Silver Certified',
+      type: '* week Online',
       details: [
       ]
     },
     {
       id: 3,
-      title: 'GitHub Foundations',
-      organization: 'GitHub',
+      title: 'AI and Data Science Foundations',
+      organization: 'Samatrix.IO',
       date: 'June 2024',
       role: 'Learner',
-      type: 'github',
+      type: '1 year Hands On Projects',
       details: [
       ]
     },
     {
       id: 4,
-      title: 'Project Administration',
-      organization: 'Girlscript Open Source Program',
+      title: 'Kaggle - Python, Data cleaning, Into to ML, ',
+      organization: 'Kaggle',
       date: 'October 2024',
-      role: 'Admin',
-      type: 'girlscript',
+      role: 'Learner',
+      type: 'Competition',
       details: [
       ]
     },
