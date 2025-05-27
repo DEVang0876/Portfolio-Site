@@ -275,33 +275,33 @@ const ResumeNew = () => {
     other: [
       {
         id: 4,
-        title: 'Program Coordinator',
-        organization: 'Social Winter of Code (SWOC)',
-        logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEc5uOgkKlDvQ/company-logo_100_100/company-logo_100_100/0/1694778514503/socialwinterofcode_logo?e=1751500800&v=beta&t=_CV93zwkL-sN0oYqzjJ0reOH-20k__3uD2Xp3gNBirw',
-        duration: 'Jan 2025 - Mar 2025',
-        location: 'India',
-        type: 'Internship',
-        description: 'Selected for the Coordinator with Social Winter of Code (SWoC) for a duration of three months.',
+        title: '',
+        organization: '',
+        logo: '',
+        duration: '',
+        location: '',
+        type: '',
+        description: '',
         responsibilities: [
-          'Managing and coordinating open source projects',
-          'Mentoring participants and providing technical guidance',
+          '',
+          '',
         ],
-        skills: ['Project Management', 'Open Source', 'Leadership', 'Technical Mentoring']
+        skills: ['']
       },
       {
         id: 5,
-        title: 'Project Administrator',
-        organization: 'GirlScript Summer of Code',
-        logo: 'https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=1751500800&v=beta&t=MI_q6bWFvAqnmc2ql9DBzY940teWm4j3VYypdp5xsDE',
-        duration: 'Sep 2024 - Nov 2024',
-        location: 'Pune, Maharashtra, India',
-        type: 'Hybrid',
-        description: "Selected as Project Admin for Gssoc'24 Extended 2024 an one month open source contribution program",
+        title: '',
+        organization: '',
+        logo: '',
+        duration: '',
+        location: '',
+        type:'',
+        description: "",
         responsibilities: [
-          'Reviewing and merging pull requests',
-          'Coordinating with project mentors and contributors',
+          '',
+          '',
         ],
-        skills: ['Leadership', 'Web Development', 'Git', 'Project Management']
+        skills: ['']
       }
     ]
   };
