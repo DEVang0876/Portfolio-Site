@@ -145,7 +145,7 @@ const ProjectTimeline = () => {
       techStack: ["Python", "Flask", "Streamlit", "Gemini API"],
       github: "https://github.com/DEVang0876/Deviine-AI",
       //live: "https://waste-sortai.vercel.app",
-      image: "/projects/deviine-ai.png"
+      image: "/projects/swasthya.png"
     },
     {
       title: "AI Image Generator",
