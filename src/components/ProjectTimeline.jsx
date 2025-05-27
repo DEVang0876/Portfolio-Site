@@ -158,25 +158,25 @@ const ProjectTimeline = () => {
       image: "/projects/AI-image.png"
     },
     {
-      title: "Samvidhan Path",
-      role: "Fullstack Developer",
-      type: "Group Project | Civic Education",
-      description: "Interactive and educational website to understand the Indian Constitution through a gamified interface.",
-      techStack: ["React.js", "Tailwind", "Framer Motion", "Node.js"],
-      github: "https://github.com/dhairyagothi/samvidhan--path",
-      live: "https://samvidhan-path.vercel.app",
-      image: "/projects/samvidhan.png"
+      title: "Movie Recommendation System",
+      role: "Data Scientist & ML Engineer",
+      type: "Open Source | Personal",
+      description: "A movie recommendation system that suggests movies based on user preferences using collaborative filtering.",
+      techStack: ["Python", "Flask", "Streamlit", "Pandas", "NumPy"],
+      github: "https://github.com/DEVang0876/Movie-Recommendation-System-",
+      //live: "https://samvidhan-path.vercel.app",
+      image: "/projects/movie.png"
     },
-    {
-      title: "Swasthya Saarthi",
-      role: "Backend Developer",
-      type: "Hackathon | HealthTech",
-      description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
-      techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
-      github: "https://github.com/dhairyagothi/swasthya-saarthi",
-      live: "https://swasthya-saarthi.vercel.app",
-      image: "/projects/swasthya.png"
-    }
+    // {
+    //   title: "Swasthya Saarthi",
+    //   role: "Backend Developer",
+    //   type: "Hackathon | HealthTech",
+    //   description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
+    //   techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
+    //   github: "https://github.com/dhairyagothi/swasthya-saarthi",
+    //   live: "https://swasthya-saarthi.vercel.app",
+    //   image: "/projects/swasthya.png"
+    // }
   ];
 
   return (
