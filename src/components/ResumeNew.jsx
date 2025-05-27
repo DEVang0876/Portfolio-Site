@@ -258,18 +258,18 @@ const ResumeNew = () => {
       },
       {
         id: 2,
-        title: 'Technical Team Core Member',
-        organization: 'Blockchain Club VITB',
-        logo: 'https://media.licdn.com/dms/image/v2/D560BAQHXXK4kWZV6RQ/company-logo_100_100/company-logo_100_100/0/1719432963317/blockchain_club_vitb_logo?e=1751500800&v=beta&t=ZgAW3Sif-CgK5arXDWl5If033uCEXsX5LZcm_Qz8LEM',
-        duration: 'Oct 2024 - Present',
-        location: 'Bhopal, Madhya Pradesh, India',
-        type: 'Full-time',
-        description: 'Core team member in Technical team of Blockchain club in VIT BHOPAL UNIVERSITY',
+        title: '',
+        organization: '',
+        logo: '',
+        duration: '',
+        location: '',
+        type: '',
+        description: '',
         responsibilities: [
-          'Developing blockchain-based projects and solutions',
-          'Managing club\'s technical infrastructure and resources'
+          '',
+          ''
         ],
-        skills: ['Web Development', 'React.js', 'Blockchain', 'Technical Leadership']
+        skills: ['']
       }
     ],
     other: [
