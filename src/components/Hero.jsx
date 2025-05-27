@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaYoutube, FaXTwitter, FaInstagram, FaDiscord, FaDownload } from 'react-icons/fa6';
 import dhairya from '../assets/dhairya-portrait.png';
-import FeedbackModal from './xFeedbackModal';
-import FeedbackList from './xFeedbackList';
+import FeedbackModal from './FeedbackModal';
+import FeedbackList from './FeedbackList';
 
 const Hero = () => {
   const [showFeedback, setShowFeedback] = useState(false);
