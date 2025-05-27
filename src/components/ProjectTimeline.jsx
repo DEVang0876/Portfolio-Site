@@ -153,7 +153,7 @@ const ProjectTimeline = () => {
       type: "AI-based Personal project",
       description: "An AI-powered image generation tool using diffusers.",
       techStack: ["Python", "Flask", "Streamlit", "Diffusers"],
-      github: "https://deviine-ai.vercel.app",
+      github: "https://",
       live: "https://colab.research.google.com/drive/1v_hwIG7XHGtRcG1OlHJU68cT7Q-J-3_Y#scrollTo=rh-iiJutCEQ0",
       image: "/projects/AI-image.png"
     },
