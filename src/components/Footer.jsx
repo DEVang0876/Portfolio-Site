@@ -6,7 +6,7 @@ const Footer = () => {
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/devang0876/' },
     { icon: FaYoutube, href: 'https://www.youtube.com/@devangdevf738' },
     { icon: FaXTwitter, href: 'https://x.com/DevangDhandhuk1' },
-    { icon: FaInstagram, href: 'https://www.instagram.com/_deviiinee__/' },
+    { icon: FaInstagram, href: 'https://www.instagram.com/__deviiinee_/' },
     //{ icon: FaDiscord, href: 'https://discord.com/users/dhairyagothi' },
   ];
 
