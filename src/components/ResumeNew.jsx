@@ -243,65 +243,65 @@ const ResumeNew = () => {
   const experienceData = {
     clubs: [
       {
-        id: 1,
-        title: 'Technical Team Core Member',
-        organization: 'Ecell, VIT Bhopal',
-        logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEAfG-5C8Lv6Q/company-logo_100_100/B4DZVXqxtwHAAQ-/0/1740932588580?e=1751500800&v=beta&t=CAOpIIZT85xsld2u06xPQ8n7W9hnqfXRvxCxVK-DU6U',
-        duration: 'Nov 2024 - Present',
-        location: 'Bhopal, Madhya Pradesh, India',
-        type: 'Full-time',
-        description: 'Technical Team Core Member in E-Cell of VIT Bhopal University',
-        responsibilities: [
-          'Managing and maintaining the E-Cell website and digital platforms',
-        ],
-        skills: ['Web Development', 'React.js', 'Leadership', 'Event Management']
+        // id: 1,
+        // title: 'Technical Team Core Member',
+        // organization: 'Ecell, VIT Bhopal',
+        // logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEAfG-5C8Lv6Q/company-logo_100_100/B4DZVXqxtwHAAQ-/0/1740932588580?e=1751500800&v=beta&t=CAOpIIZT85xsld2u06xPQ8n7W9hnqfXRvxCxVK-DU6U',
+        // duration: 'Nov 2024 - Present',
+        // location: 'Bhopal, Madhya Pradesh, India',
+        // type: 'Full-time',
+        // description: 'Technical Team Core Member in E-Cell of VIT Bhopal University',
+        // responsibilities: [
+        //   'Managing and maintaining the E-Cell website and digital platforms',
+        // ],
+        // skills: ['Web Development', 'React.js', 'Leadership', 'Event Management']
       },
       {
-        id: 2,
-        title: 'Technical Team Core Member',
-        organization: 'Blockchain Club VITB',
-        logo: 'https://media.licdn.com/dms/image/v2/D560BAQHXXK4kWZV6RQ/company-logo_100_100/company-logo_100_100/0/1719432963317/blockchain_club_vitb_logo?e=1751500800&v=beta&t=ZgAW3Sif-CgK5arXDWl5If033uCEXsX5LZcm_Qz8LEM',
-        duration: 'Oct 2024 - Present',
-        location: 'Bhopal, Madhya Pradesh, India',
-        type: 'Full-time',
-        description: 'Core team member in Technical team of Blockchain club in VIT BHOPAL UNIVERSITY',
-        responsibilities: [
-          'Developing blockchain-based projects and solutions',
-          'Managing club\'s technical infrastructure and resources'
-        ],
-        skills: ['Web Development', 'React.js', 'Blockchain', 'Technical Leadership']
+        // id: 2,
+        // title: 'Technical Team Core Member',
+        // organization: 'Blockchain Club VITB',
+        // logo: 'https://media.licdn.com/dms/image/v2/D560BAQHXXK4kWZV6RQ/company-logo_100_100/company-logo_100_100/0/1719432963317/blockchain_club_vitb_logo?e=1751500800&v=beta&t=ZgAW3Sif-CgK5arXDWl5If033uCEXsX5LZcm_Qz8LEM',
+        // duration: 'Oct 2024 - Present',
+        // location: 'Bhopal, Madhya Pradesh, India',
+        // type: 'Full-time',
+        // description: 'Core team member in Technical team of Blockchain club in VIT BHOPAL UNIVERSITY',
+        // responsibilities: [
+        //   'Developing blockchain-based projects and solutions',
+        //   'Managing club\'s technical infrastructure and resources'
+        // ],
+        // skills: ['Web Development', 'React.js', 'Blockchain', 'Technical Leadership']
       }
     ],
     other: [
       {
-        id: 4,
-        title: 'Program Coordinator',
-        organization: 'Social Winter of Code (SWOC)',
-        logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEc5uOgkKlDvQ/company-logo_100_100/company-logo_100_100/0/1694778514503/socialwinterofcode_logo?e=1751500800&v=beta&t=_CV93zwkL-sN0oYqzjJ0reOH-20k__3uD2Xp3gNBirw',
-        duration: 'Jan 2025 - Mar 2025',
-        location: 'India',
-        type: 'Internship',
-        description: 'Selected for the Coordinator with Social Winter of Code (SWoC) for a duration of three months.',
-        responsibilities: [
-          'Managing and coordinating open source projects',
-          'Mentoring participants and providing technical guidance',
-        ],
-        skills: ['Project Management', 'Open Source', 'Leadership', 'Technical Mentoring']
+        // id: 4,
+        // title: 'Program Coordinator',
+        // organization: 'Social Winter of Code (SWOC)',
+        // logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQEc5uOgkKlDvQ/company-logo_100_100/company-logo_100_100/0/1694778514503/socialwinterofcode_logo?e=1751500800&v=beta&t=_CV93zwkL-sN0oYqzjJ0reOH-20k__3uD2Xp3gNBirw',
+        // duration: 'Jan 2025 - Mar 2025',
+        // location: 'India',
+        // type: 'Internship',
+        // description: 'Selected for the Coordinator with Social Winter of Code (SWoC) for a duration of three months.',
+        // responsibilities: [
+        //   'Managing and coordinating open source projects',
+        //   'Mentoring participants and providing technical guidance',
+        // ],
+        // skills: ['Project Management', 'Open Source', 'Leadership', 'Technical Mentoring']
       },
       {
-        id: 5,
-        title: 'Project Administrator',
-        organization: 'GirlScript Summer of Code',
-        logo: 'https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=1751500800&v=beta&t=MI_q6bWFvAqnmc2ql9DBzY940teWm4j3VYypdp5xsDE',
-        duration: 'Sep 2024 - Nov 2024',
-        location: 'Pune, Maharashtra, India',
-        type: 'Hybrid',
-        description: "Selected as Project Admin for Gssoc'24 Extended 2024 an one month open source contribution program",
-        responsibilities: [
-          'Reviewing and merging pull requests',
-          'Coordinating with project mentors and contributors',
-        ],
-        skills: ['Leadership', 'Web Development', 'Git', 'Project Management']
+        // id: 5,
+        // title: 'Project Administrator',
+        // organization: 'GirlScript Summer of Code',
+        // logo: 'https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_100_100/company-logo_100_100/0/1630597186826/girlscriptsoc_logo?e=1751500800&v=beta&t=MI_q6bWFvAqnmc2ql9DBzY940teWm4j3VYypdp5xsDE',
+        // duration: 'Sep 2024 - Nov 2024',
+        // location: 'Pune, Maharashtra, India',
+        // type: 'Hybrid',
+        // description: "Selected as Project Admin for Gssoc'24 Extended 2024 an one month open source contribution program",
+        // responsibilities: [
+        //   'Reviewing and merging pull requests',
+        //   'Coordinating with project mentors and contributors',
+        // ],
+        // skills: ['Leadership', 'Web Development', 'Git', 'Project Management']
       }
     ]
   };
@@ -351,49 +351,54 @@ const ResumeNew = () => {
 
   const projects = [
     {
-      title: "100 Days 100 Web Projects",
-      role: "Fullstack Developer",
+      title: "Employee Performance Prediction and Dashbord",
+      role: "Data Scientist & ML Engineer",
       type: "Open Source | Personal",
-      description: "A challenge-based project where 100 unique web projects were developed in 100 days to enhance frontend and backend skills.",
-      techStack: ["React.js", "Tailwind CSS", "Node.js", "Vercel"],
-      github: "https://github.com/dhairyagothi/100_days_100_web_project",
-      live: "https://100-days-100-web-project.vercel.app",
+      description: "Predicting employee performance using ML models and visualizing data through an interactive dashboard.",
+      techStack: ["SciKit Learn", "Flask", "Python", "Vercel"],
+      github: "https://github.com/OMCHOKSI108/EMPLOYEE-PERFORMANCE-PREDICTION-",
+      live: "https://employee-yp79.onrender.com",
+      image: "/projects/Emp.png"
     },
     {
-      title: "Waste Sort AI",
-      role: "ML Model Development / Backend",
-      type: "Group Project | AI-based",
-      description: "AI-powered waste classification system using real-time object detection and ML model integration.",
-      techStack: ["Python", "YOLOv8", "Streamlit", "React.js", "Flask"],
-      github: "https://github.com/dhairyagothi/wastesort-ai-deployment",
-      live: "https://waste-sortai.vercel.app",
+      title: "Deviine-AI",
+      role: "Machine Learning Engineer",
+      type: "AI-based Personal project",
+      description: "An AI-based personal assistant that can answer questions and perform tasks using natural language processing.",
+      techStack: ["Python", "Flask", "Streamlit", "Gemini API"],
+      github: "https://github.com/DEVang0876/Deviine-AI",
+      live: "https://deviine-ai.vercel.app",
+      image: "/projects/deviine.png"
     },
     {
-      title: "Station Saarthi",
-      role: "Fullstack Developer",
-      type: "Smart India Hackathon | Gov PS",
-      description: "A smart navigation system for railway stations designed to guide passengers in real-time.",
-      techStack: ["React.js", "Node.js", "Google Maps API"],
-      github: "https://github.com/dhairyagothi/StationGuide",
-      live: "https://station-guide.vercel.app",
+      title: "AI Image Generator",
+      role: "AI Engineer",
+      type: "AI-based Personal project",
+      description: "An AI-powered image generation tool using diffusers.",
+      techStack: ["Python", "Flask", "Streamlit", "Diffusers"],
+      github: "https://",
+      live: "https://colab.research.google.com/drive/1v_hwIG7XHGtRcG1OlHJU68cT7Q-J-3_Y#scrollTo=rh-iiJutCEQ0",
+      image: "/projects/AI-image.png"
     },
     {
-        title: "Samvidhan Path",
-        role: "Fullstack Developer",
-        type: "Group Project | Civic Education",
-        description: "Interactive and educational website to understand the Indian Constitution through a gamified interface.",
-        techStack: ["React.js", "Tailwind", "Framer Motion", "Node.js"],
-        github: "https://github.com/dhairyagothi/samvidhan--path",
-        live: "https://samvidhan-path.vercel.app",
-      },
+      title: "Movie Recommendation System",
+      role: "Data Scientist & ML Engineer",
+      type: "Open Source | Personal",
+      description: "A movie recommendation system that suggests movies based on user preferences using collaborative filtering.",
+      techStack: ["Python", "Flask", "Streamlit", "Pandas", "NumPy"],
+      github: "https://github.com/DEVang0876/Movie-Recommendation-System-",
+      live: "https://samvidhan-path.vercel.app",
+      image: "/projects/movie.png"
+    },
       {
-        title: "Swasthya Saarthi",
-        role: "Backend Developer",
-        type: "Hackathon | HealthTech",
-        description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
-        techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
-        github: "https://github.com/dhairyagothi/swasthya-saarthi",
-        live: "https://swasthya-saarthi.vercel.app",
+        title: "Open CV",
+        role: "AI Engineer",
+        type: "AI-based Personal project",
+        description: "A project showcasing various OpenCV functionalities including image processing and computer vision tasks.",
+        techStack: ["Python", "OpenCV"],
+        github: "https://github.com/DEVang0876/Face-Detection",
+        live: "",
+        image: "/projects/cv.png"
       }
   ];
 
