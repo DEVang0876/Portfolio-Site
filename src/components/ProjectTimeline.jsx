@@ -168,14 +168,14 @@ const ProjectTimeline = () => {
       image: "/projects/movie.png"
     },
       {
-        title: "Swasthya Saarthi",
-        role: "Backend Developer",
-        type: "Hackathon | HealthTech",
-        description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
-        techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
-        github: "https://github.com/dhairyagothi/swasthya-saarthi",
-        live: "https://swasthya-saarthi.vercel.app",
-        image: "/projects/swasthya.png"
+        title: "Open CV",
+        role: "AI Engineer",
+        type: "AI-based Personal project",
+        description: "A project showcasing various OpenCV functionalities including image processing and computer vision tasks.",
+        techStack: ["Python", "OpenCV"],
+        github: "https://github.com/DEVang0876/Face-Detection",
+        live: "",
+        image: "/projects/cv.png"
       }
     ];
   
