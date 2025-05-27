@@ -213,16 +213,16 @@ const ResumeNew = () => {
   const educationData = [
     {
       id: 1,
-      institution: 'Vellore Institute of Technology',
+      institution: 'Charotar University of Science and Technology',
       logo: '/logos/vit.png',
-      degree: 'BTech, Computer Science',
+      degree: 'BTech(AIML)',
       duration: 'Aug 2023 – Jul 2027',
-      grade: '8.36 CGPA',
+      grade: '8.83 CGPA',
       details: []
     },
     {
       id: 2,
-      institution: 'Central Board of Secondary Education',
+      institution: 'Gujrat Secondary and Higher Secondary Education Board',
       logo: '/logos/cbse.png',
       degree: '12th Senior Secondary, Science',
       duration: 'Mar 2022 – May 2023',
@@ -231,7 +231,7 @@ const ResumeNew = () => {
     },
     {
       id: 3,
-      institution: 'Central Board of Secondary Education',
+      institution: 'Gujrat Secondary and Higher Secondary Education Board',
       logo: '/logos/cbse.png',
       degree: '10th Secondary, Science',
       duration: 'Mar 2020 – Apr 2021',
