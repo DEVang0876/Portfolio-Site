@@ -552,17 +552,17 @@ const ResumeNew = () => {
               <div>
                 <div className="flex items-center space-x-3 mb-3">
                   <FaAward className="text-[#00FF7F] w-5 h-5" />
-                  <h4 className="text-white font-semibold text-base">GitHub Contributions</h4>
+                  <h4 className="text-white font-semibold text-base">Data Science Treasure Hunt</h4>
                 </div>
-                <p className="text-gray-400">Ranked 64th in GirlScript Summer of Code 2024 among 1000+ contributors</p>
+                <p className="text-gray-400">2nd Rank Among 40 teams</p>
               </div>
               
               <div>
                 <div className="flex items-center space-x-3 mb-3">
                   <FaCode className="text-[#00FF7F] w-5 h-5" />
-                  <h4 className="text-white font-semibold text-base">LeetCode Problem Solving</h4>
+                  <h4 className="text-white font-semibold text-base">ImmunoQuest: The deep learning hackathon</h4>
                 </div>
-                <p className="text-gray-400">Solved 450+ problems on LeetCode, focusing on data structures and algorithms</p>
+                <p className="text-gray-400">Secured Top 9 Position in Leaderboard among 50+ experienced Teams </p>
               </div>
             </div>
           </div>
