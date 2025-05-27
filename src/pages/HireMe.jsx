@@ -17,25 +17,27 @@ const HireMe = () => {
     },
     {
       icon: FaCode,
-      title: "Backend Development",
-      description: "Design scalable backend systems using Node.js, FastAPI, and database technologies.",
+      title: "Data Analytics & Visualization",
+      description: "Transform raw data into actionable insights using Python, SQL, and visualization tools.",
       features: [
-        "REST API Design",
-        "Authentication & Security",
-        "Database Integration (MongoDB/PostgreSQL)",
-        "Server-Side Optimization"
+        "Data Analysis with Pandas",
+        "SQL Querying & Optimization",
+        "Interactive Dashboards (Tableau/Power BI)",
+        "Data Storytelling"
       ]
+      
     },
     {
       icon: FaMobile,
-      title: "ML Project Deployment",
-      description: "Deploy machine learning models to production using tools like Flask, Docker, and Streamlit.",
+      title: "Machine Learning",
+      description: "Develop and deploy machine learning models using Python, TensorFlow, and PyTorch.",
       features: [
-        "Model Packaging",
-        "API Integration",
-        "Dockerization",
-        "UI for ML Outputs"
+        "Supervised & Unsupervised Learning",
+        "Model Deployment (Flask/Django)",
+        "Real-time Predictions",
+        "Model Optimization"
       ]
+      
     },
     {
       icon: FaTools,
