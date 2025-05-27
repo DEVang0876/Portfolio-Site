@@ -226,7 +226,7 @@ const ResumeNew = () => {
       logo: '/logos/cbse.png',
       degree: '12th Senior Secondary, Science',
       duration: 'Mar 2022 – May 2023',
-      grade: '82.4%',
+      grade: '82 %ile',
       details: []
     },
     {
@@ -235,7 +235,7 @@ const ResumeNew = () => {
       logo: '/logos/cbse.png',
       degree: '10th Secondary, Science',
       duration: 'Mar 2020 – Apr 2021',
-      grade: '86%',
+      grade: '93%',
       details: []
     },
   ];
