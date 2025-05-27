@@ -42,12 +42,12 @@ const App = () => {
           }
 
           ::-webkit-scrollbar-thumb {
-            background: #00FF7F;
+            background:rgb(103, 213, 230);
             border-radius: 3px;
           }
 
           ::-webkit-scrollbar-thumb:hover {
-            background: #00cc66;
+            background:rgb(103, 213, 230);
           }
 
           /* Container styles */
