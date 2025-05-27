@@ -174,59 +174,110 @@ const Work = () => {
     fetchOrganizations();
   }, []);
 
-  const projects = [
+  // const projects = [
+  //   {
+  //     title: "100 Days 100 Web Projects",
+  //     role: "Fullstack Developer",
+  //     type: "Open Source | Personal",
+  //     description: "A challenge-based project where 100 unique web projects were developed in 100 days to enhance frontend and backend skills.",
+  //     techStack: ["React.js", "Tailwind CSS", "Node.js", "Vercel"],
+  //     github: "https://github.com/dhairyagothi/100_days_100_web_project",
+  //     live: "https://100-days-100-web-project.vercel.app",
+  //     image: "/projects/100days.png"
+  //   },
+  //   {
+  //     title: "Waste Sort AI",
+  //     role: "ML Model Development / Backend",
+  //     type: "Group Project | AI-based",
+  //     description: "AI-powered waste classification system using real-time object detection and ML model integration.",
+  //     techStack: ["Python", "YOLOv8", "Streamlit", "React.js", "Flask"],
+  //     github: "https://github.com/dhairyagothi/wastesort-ai-deployment",
+  //     live: "https://waste-sortai.vercel.app",
+  //     image: "/projects/wastesort.png"
+  //   },
+  //   {
+  //     title: "Station Saarthi",
+  //     role: "Fullstack Developer",
+  //     type: "Smart India Hackathon | Gov PS",
+  //     description: "A smart navigation system for railway stations designed to guide passengers in real-time.",
+  //     techStack: ["React.js", "Node.js", "Google Maps API"],
+  //     github: "https://github.com/dhairyagothi/StationGuide",
+  //     live: "https://station-guide.vercel.app",
+  //     image: "/projects/station.png"
+  //   },
+  //   {
+  //     title: "Samvidhan Path",
+  //     role: "Fullstack Developer",
+  //     type: "Group Project | Civic Education",
+  //     description: "Interactive and educational website to understand the Indian Constitution through a gamified interface.",
+  //     techStack: ["React.js", "Tailwind", "Framer Motion", "Node.js"],
+  //     github: "https://github.com/dhairyagothi/samvidhan--path",
+  //     live: "https://samvidhan-path.vercel.app",
+  //     image: "/projects/samvidhan.png"
+  //   },
+  //   {
+  //     title: "Swasthya Saarthi",
+  //     role: "Backend Developer",
+  //     type: "Hackathon | HealthTech",
+  //     description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
+  //     techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
+  //     github: "https://github.com/dhairyagothi/swasthya-saarthi",
+  //     live: "https://swasthya-saarthi.vercel.app",
+  //     image: "/projects/swasthya.png"
+  //   }
+  // ];
+const projects = [
     {
-      title: "100 Days 100 Web Projects",
-      role: "Fullstack Developer",
+      title: "Employee Performance Prediction and Dashbord",
+      role: "Data Scientist & ML Engineer",
       type: "Open Source | Personal",
-      description: "A challenge-based project where 100 unique web projects were developed in 100 days to enhance frontend and backend skills.",
-      techStack: ["React.js", "Tailwind CSS", "Node.js", "Vercel"],
-      github: "https://github.com/dhairyagothi/100_days_100_web_project",
-      live: "https://100-days-100-web-project.vercel.app",
-      image: "/projects/100days.png"
+      description: "Predicting employee performance using ML models and visualizing data through an interactive dashboard.",
+      techStack: ["SciKit Learn", "Flask", "Python", "Vercel"],
+      github: "https://github.com/OMCHOKSI108/EMPLOYEE-PERFORMANCE-PREDICTION-",
+      live: "https://employee-yp79.onrender.com",
+      image: "/projects/Emp.png"
     },
     {
-      title: "Waste Sort AI",
-      role: "ML Model Development / Backend",
-      type: "Group Project | AI-based",
-      description: "AI-powered waste classification system using real-time object detection and ML model integration.",
-      techStack: ["Python", "YOLOv8", "Streamlit", "React.js", "Flask"],
-      github: "https://github.com/dhairyagothi/wastesort-ai-deployment",
-      live: "https://waste-sortai.vercel.app",
-      image: "/projects/wastesort.png"
+      title: "Deviine-AI",
+      role: "Machine Learning Engineer",
+      type: "AI-based Personal project",
+      description: "An AI-based personal assistant that can answer questions and perform tasks using natural language processing.",
+      techStack: ["Python", "Flask", "Streamlit", "Gemini API"],
+      github: "https://github.com/DEVang0876/Deviine-AI",
+      live: "https://deviine-ai.vercel.app",
+      image: "/projects/deviine.png"
     },
     {
-      title: "Station Saarthi",
-      role: "Fullstack Developer",
-      type: "Smart India Hackathon | Gov PS",
-      description: "A smart navigation system for railway stations designed to guide passengers in real-time.",
-      techStack: ["React.js", "Node.js", "Google Maps API"],
-      github: "https://github.com/dhairyagothi/StationGuide",
-      live: "https://station-guide.vercel.app",
-      image: "/projects/station.png"
+      title: "AI Image Generator",
+      role: "AI Engineer",
+      type: "AI-based Personal project",
+      description: "An AI-powered image generation tool using diffusers.",
+      techStack: ["Python", "Flask", "Streamlit", "Diffusers"],
+      github: "https://",
+      live: "https://colab.research.google.com/drive/1v_hwIG7XHGtRcG1OlHJU68cT7Q-J-3_Y#scrollTo=rh-iiJutCEQ0",
+      image: "/projects/AI-image.png"
     },
     {
-      title: "Samvidhan Path",
-      role: "Fullstack Developer",
-      type: "Group Project | Civic Education",
-      description: "Interactive and educational website to understand the Indian Constitution through a gamified interface.",
-      techStack: ["React.js", "Tailwind", "Framer Motion", "Node.js"],
-      github: "https://github.com/dhairyagothi/samvidhan--path",
+      title: "Movie Recommendation System",
+      role: "Data Scientist & ML Engineer",
+      type: "Open Source | Personal",
+      description: "A movie recommendation system that suggests movies based on user preferences using collaborative filtering.",
+      techStack: ["Python", "Flask", "Streamlit", "Pandas", "NumPy"],
+      github: "https://github.com/DEVang0876/Movie-Recommendation-System-",
       live: "https://samvidhan-path.vercel.app",
-      image: "/projects/samvidhan.png"
+      image: "/projects/movie.png"
     },
-    {
-      title: "Swasthya Saarthi",
-      role: "Backend Developer",
-      type: "Hackathon | HealthTech",
-      description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
-      techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
-      github: "https://github.com/dhairyagothi/swasthya-saarthi",
-      live: "https://swasthya-saarthi.vercel.app",
-      image: "/projects/swasthya.png"
-    }
-  ];
-
+      {
+        title: "Open CV",
+        role: "AI Engineer",
+        type: "AI-based Personal project",
+        description: "A project showcasing various OpenCV functionalities including image processing and computer vision tasks.",
+        techStack: ["Python", "OpenCV"],
+        github: "https://github.com/DEVang0876/Face-Detection",
+        live: "",
+        image: "/projects/cv.png"
+      }
+    ];
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800">
       <Navbar />
