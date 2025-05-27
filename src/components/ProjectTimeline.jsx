@@ -144,7 +144,7 @@ const ProjectTimeline = () => {
       description: "An AI-based personal assistant that can answer questions and perform tasks using natural language processing.",
       techStack: ["Python", "Flask", "Streamlit", "Gemini API"],
       github: "https://github.com/DEVang0876/Deviine-AI",
-      //live: "https://waste-sortai.vercel.app",
+      live: "https://deviine-ai.vercel.app",
       image: "/projects/swasthya.png"
     },
     {
@@ -153,7 +153,7 @@ const ProjectTimeline = () => {
       type: "AI-based Personal project",
       description: "An AI-powered image generation tool using diffusers.",
       techStack: ["Python", "Flask", "Streamlit", "Diffusers"],
-      //github: "",
+      github: "",
       live: "https://colab.research.google.com/drive/1v_hwIG7XHGtRcG1OlHJU68cT7Q-J-3_Y#scrollTo=rh-iiJutCEQ0",
       image: "/projects/AI-image.png"
     },
@@ -164,19 +164,19 @@ const ProjectTimeline = () => {
       description: "A movie recommendation system that suggests movies based on user preferences using collaborative filtering.",
       techStack: ["Python", "Flask", "Streamlit", "Pandas", "NumPy"],
       github: "https://github.com/DEVang0876/Movie-Recommendation-System-",
-      //live: "https://samvidhan-path.vercel.app",
+      live: "https://samvidhan-path.vercel.app",
       image: "/projects/movie.png"
     },
-    // {
-    //   title: "Swasthya Saarthi",
-    //   role: "Backend Developer",
-    //   type: "Hackathon | HealthTech",
-    //   description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
-    //   techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
-    //   github: "https://github.com/dhairyagothi/swasthya-saarthi",
-    //   live: "https://swasthya-saarthi.vercel.app",
-    //   image: "/projects/swasthya.png"
-    // }
+    {
+      title: "Swasthya Saarthi",
+      role: "Backend Developer",
+      type: "Hackathon | HealthTech",
+      description: "A healthcare accessibility platform simplifying digital health for remote areas and common users.",
+      techStack: ["Node.js", "Express", "MongoDB", "Tailwind", "React.js"],
+      github: "https://github.com/dhairyagothi/swasthya-saarthi",
+      live: "https://swasthya-saarthi.vercel.app",
+      image: "/projects/swasthya.png"
+    }
   ];
 
   return (
