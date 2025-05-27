@@ -126,15 +126,7 @@ const Experience = () => {
   //   ],
   // };
 
-  // const containerVariants = {
-  //   hidden: { opacity: 0 },
-  //   visible: {
-  //     opacity: 1,
-  //     transition: {
-  //       staggerChildren: 0.2,
-  //     },
-  //   },
-  // };
+
 const experienceData = {
     clubs: [
       {
@@ -153,6 +145,21 @@ const experienceData = {
       },
       {
         id: 2,
+        title: '',
+        organization: '',
+        logo: '',
+        duration: '',
+        location: '',
+        type: '',
+        description: '',
+        responsibilities: [
+          '',
+          ''
+        ],
+        skills: ['']
+      },
+      {
+        id: 3,
         title: '',
         organization: '',
         logo: '',
@@ -197,9 +204,34 @@ const experienceData = {
           '',
         ],
         skills: ['']
-      }
-    ]
+      },
+      {
+        id: 6,
+        title: '',
+        organization: '',
+        logo: '',
+        duration: '',
+        location: '',
+        type:'',
+        description: "",
+        responsibilities: [
+          '',
+          '',
+        ],
+        skills: ['']
+      },
+    ],
   };
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
   return (
     <section id="experience" className="py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
