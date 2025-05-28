@@ -64,7 +64,7 @@ const Hero = () => {
               </motion.span>
               <motion.h1 className="text-3xl md:text-6xl font-bold font-fira">
                 Hello I'm{' '}
-                <span className="text-[#87CEEB]">Devang</span>
+                <span className="text-sky-500">Devang</span>
               </motion.h1>
               <motion.p className="text-base md:text-lg text-gray-300 max-w-lg font-fira">
                 I excel at crafting elegant digital experiences that combine
