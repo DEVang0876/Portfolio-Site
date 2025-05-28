@@ -59,7 +59,9 @@ const ProjectCard = ({ project, index }) => {
             <div className="flex-1 space-y-3 md:space-y-4">
               <div>
                 <h3 className="text-lg md:text-xl font-bold text-white mb-1 md:mb-2 font-fira">{project.title}</h3>
-                <p className="text-sm md:text-base text-[#00FF7F] mb-1 font-poppins">{project.role}</p>
+                <p className="inline-block px-2 md:px-3 py-1 bg-sky-500/10 text-sky-500 rounded-full text-xs md:text-sm mb-1 font-fira">
+                    {project.role}
+                </p>
                 <p className="text-xs md:text-sm text-gray-400 font-poppins">{project.type}</p>
               </div>
 
