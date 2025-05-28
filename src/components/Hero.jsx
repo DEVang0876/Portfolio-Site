@@ -107,13 +107,13 @@ const Hero = () => {
           <motion.div className="relative order-1 md:order-2 mb-8 md:mb-0">
             <div className="relative w-[20rem] md:w-[26rem] h-[20rem] md:h-[26rem] mx-auto">
               {/* Neon glow effect */}
-              <div className="absolute inset-0 bg-[#87CEEB]/20 blur-xl" />
+              <div className="absolute inset-0 bg-sky-500/20 blur-xl" />
               
               {/* Rotating circles */}
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-                className="absolute inset-0.5 border-2 border-dashed border-[#1E3A8A] rounded-full"
+                className="absolute inset-0.5 border-2 border-dashed border-sky-700 rounded-full"
                 style={{
                   clipPath: 'inset(0 0 50% 0)',
                 }}
@@ -122,14 +122,14 @@ const Hero = () => {
               <motion.div
                 animate={{ rotate: -360 }}
                 transition={{ duration: 15, repeat: Infinity, ease: 'linear' }}
-                className="absolute inset-6 border-2 border-dotted border-[#1E3A8A] rounded-full"
+                className="absolute inset-6 border-2 border-dotted border-sky-700 rounded-full"
                 style={{
                   clipPath: 'inset(50% 0 0 0)',
                 }}
               />
 
               {/* Image container */}
-              <div className="absolute inset-16 md:inset-20 rounded-full overflow-hidden border-2 border-[#87CEEB]/30 flex items-center justify-center">
+              <div className="absolute inset-16 md:inset-20 rounded-full overflow-hidden border-2 border-sky-500/30 flex items-center justify-center">
                 <img
                   src={dhairya}
                   alt="Devang"
