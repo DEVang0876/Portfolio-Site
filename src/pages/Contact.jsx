@@ -11,39 +11,39 @@ const Contact = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
   const onSubmit = async (data) => {
-    setIsSubmitting(true);
-    try {
-      // Store the message in Appwrite Database
-      const response = await databases.createDocument(
-        DATABASE_ID,
-        COLLECTION_ID,
-        ID.unique(),
-        {
-          name: data.name,
-          email: data.email,
-          message: data.message
-        }
-      );
+    // setIsSubmitting(true);
+    // try {
+    //   // Store the message in Appwrite Database
+    //   const response = await databases.createDocument(
+    //     DATABASE_ID,
+    //     COLLECTION_ID,
+    //     ID.unique(),
+    //     {
+    //       name: data.name,
+    //       email: data.email,
+    //       message: data.message
+    //     }
+    //   );
       
-      console.log('Document created successfully:', response);
+    //   console.log('Document created successfully:', response);
       
-      // Show success toast
-      toast.success('Message sent successfully! I will contact you soon.', {
-        duration: 5000,
-        icon: '✅',
-      });
+    //   // Show success toast
+    //   toast.success('Message sent successfully! I will contact you soon.', {
+    //     duration: 5000,
+    //     icon: '✅',
+    //   });
       
-      // Reset form
-      reset();
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      toast.error('Failed to send message. Please try again later.', {
-        duration: 5000,
-        icon: '❌',
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    //   // Reset form
+    //   reset();
+    // } catch (error) {
+    //   console.error('Error submitting form:', error);
+    //   toast.error('Failed to send message. Please try again later.', {
+    //     duration: 5000,
+    //     icon: '❌',
+    //   });
+    // } finally {
+    //   setIsSubmitting(false);
+    // }
   };
 
   const contactInfo = [
