@@ -160,7 +160,7 @@ const EducationTimeline = () => {
                 )
               }}
             />
-            {/* Timeline Dots */}
+            {/* TimelineDots */}
             {educationData.map((_, index) => (
               <TimelineDot key={index} index={index} total={educationData.length} inView={inView} />
             ))}
